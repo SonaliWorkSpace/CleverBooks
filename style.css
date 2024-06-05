@@ -1,0 +1,849 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #141414;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: -3px;
+    /* background-color: #000000; */
+   
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -7px 15px;
+    background-color: #141414; /* Adjust the background color as needed */
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    
+    height: 33px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    padding-right: 185px;
+
+}
+.new{
+    
+}
+.brand a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10;
+    padding-right: 18px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu li:hover a {
+    color: #fc907e;
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-size: 200% !important;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+.log {
+    display: flex;
+    align-items: center;
+}
+
+.log ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.log li {
+    margin-left: 10px;
+}
+
+.login{
+
+    margin-bottom: 9px;
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-size: 200% !important;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+    padding: 10px;
+    border-radius: 30px;
+   border-color:  2px solid white;
+    cursor : pointer; 
+}
+
+.bt{
+    margin-bottom: 9px;
+   background-color: #fc907e;
+  
+   color: white;
+  
+ 
+    padding: 10px;
+    border-radius: 30px;
+   border-color:  2px solid white;
+    cursor : pointer; 
+}
+
+
+
+.hero {
+ 
+  align-items: flex-start;
+  display: flex;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 35px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: 550;
+}
+
+.hero .highlight {
+
+  background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+  background-size: 200% !important;
+  -webkit-background-clip: text; 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation: Gradient 10s ease infinite !important;
+  -moz-animation: Gradient 10s ease infinite !important;
+  animation: Gradient 10s ease infinite !important;
+    
+}
+
+.hero p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.girl-img{
+  
+    margin-top: -10px;
+   
+    height: 600px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.start {
+    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1000px;
+    top: -60px;
+    left: 70px;
+    margin-top: 100px; 
+    padding-top: 500px;
+}
+
+.start:hover img{
+    height: 70px;
+
+}
+
+.start button {
+    margin-bottom: 52px;
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-size: 200% !important;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+    padding: 10px;
+    border-radius: 30px;
+   border-color:  2px solid white;
+    cursor : pointer; 
+}
+
+.start button:hover {
+    color: white;
+    transition: ease-in-out 0.8s;
+    background: rgba(252,144,126,1);
+    background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+    background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1);
+    -webkit-background-clip: border-box; /* Remove text fill properties */
+    background-clip: border-box;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+}
+
+.start img{
+    display: block;
+    margin-bottom: 60px;
+}
+
+/* Key Problems Solved Section */
+.key-problems {
+    color: #000000;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.key-problems h2 {
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 800;
+    
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.problem-list {
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Adjust the gap between boxes as needed */
+}
+
+.box{
+    
+    position: relative;
+    background-color:#f1e9fc;
+    width: 1000px; /* Adjust the width to make the boxes square */
+    height: 290px; /* Adjust the height to fit the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.box .help{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px; 
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.2em;
+    flex: 0 0 auto;
+}
+
+.box img {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 40px; 
+    height: 60px;
+}
+
+.box h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.2em;
+    flex: 0 0 auto;
+}
+
+
+.box p{
+    font-family: "Montserrat", sans-serif;
+    flex: 1 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    margin-top: 10px;
+    line-height: 25px;
+    direction: ltr;
+    text-align: left;
+    object-fit: fill;
+    flex: 0 auto;
+    align-self: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Key Metrics Section */
+.key-metrics {
+    padding: 40px 0;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+}
+.key-metrics h3{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+}
+.key-metrics h2 {
+    padding-bottom: 27px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.metrics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.metric {
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 265px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.metric img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.metric p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Hover effect for metrics */
+.metric:hover {
+    background-color: #965cc8;
+    border: 4px solid rgb(255, 255, 255);
+    color: #fff;
+}
+
+.metric:hover p {
+    color: #fff;
+}
+
+
+/* reviews */
+.reviews .container {
+    background-color: #141414;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h2{
+    padding: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.reviews-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.image img {
+    width: 500px;
+    /* padding-left:200px ; */
+    height: 440px; /* Ensure the image doesn't overflow */
+    border-radius: 50px;
+    object-fit: cover;
+    overflow: hidden;
+
+    
+    transform: translate(15%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: clip-path 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.image img:hover{
+    clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+    border-radius: 50px; 
+}
+
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    display: flex;
+    flex-direction: column;
+
+    
+    /* align-items: center;
+    text-align: center;  */
+}
+
+.review h1{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.review .logo {
+    filter: invert();
+    width: 110px;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-right: 200px;
+    display: inline-block;
+    padding-left: 2px; /* Adjust the size as needed */
+    height: 150px; /* Ensure it's round by making width and height equal */
+    border-radius: 50%; /* Make the logo round */
+    margin-bottom: 20px; 
+}
+
+
+.read-more {
+   
+    border-radius: 30px;
+    border: 3px solid white;
+    cursor: pointer; 
+    background-color: transparent;
+    color: #020000;
+  
+    border-radius: 50px;
+    cursor: pointer;
+   
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Position absolutely within the relative parent */
+    bottom: 56px; 
+    left: 40px; 
+
+    font-size: 1rem;
+    border: 1px solid rgb(181, 128, 226);
+    padding: 10px;
+    border-radius: 50px;
+
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-size: 200% !important;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+.read-more:hover {
+  
+       
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    /* transition: ease-in-out 0.8s; */
+    background: rgba(252,144,126,1);
+    background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+    background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1);
+    -webkit-background-clip: border-box; /* Remove text fill properties */
+    background-clip: border-box;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+    animation: Gradient 10s ease infinite !important;
+}
+
+
+/* problems */
+.problem-target {
+    padding: 50px 0;
+    background-color: #f1e9fc;
+    text-align: center;
+}
+
+.problem-target h2 {
+    margin-bottom: 50px;
+    font-weight: 800;
+    color: #020000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab {
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.tab input {
+    display: none;
+}
+
+.tab label {
+    display: block;
+    padding: 10px 20px;
+    background-color:#9f6eed;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab input:checked + label {
+    background-color: #9f6eed;
+}
+
+.tab .content {
+    padding: 20px;
+    background-color:#e9e2f9;
+    text-align: left;
+    transition: transform 0.3s ease;
+    color: #020000;
+}
+
+.tab:hover {
+    transform: scale(1.05);
+}
+
+.tab img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tab p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* CTA Section */
+.cta .container {
+    border-radius: 50px;
+    padding: 50px;
+    height: 366px;
+    width: 900px;
+    background: linear-gradient(114deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cta .cta-cont{
+    background-color: #000000;
+    padding: 50px;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+.cta .container h2{
+    color: #ffffff;
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.cta button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 28px;
+    margin: -3px;
+    border-radius: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/* footer */
+.footer {
+    background-color: #141414;
+    padding: 20px 0;
+    display: flex;
+    
+}
+.footer p{
+    color: #c5c5c5;
+}
+
+
+
+.logo-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 600px;
+    padding-top: -15px;
+    margin-top: -24px
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display:flex;
+    
+    align-items:start;
+    padding-right: 670px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    padding-top: 39px;
+    height: 58px;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-address {
+   
+    max-width: 300px;
+    text-align: left;
+    margin-top: -185px;
+    max-width: 300px;
+    text-align: left;
+    padding-left: 844px;
+
+}
+
+
+
+.footer-address p {
+    font-size: 14px;
+    color: #c5c5c5; 
+    margin-bottom: 5px;
+
+}
+.learn{
+    padding-bottom: 50px;
+   
+    padding-left: 418px;
+    margin-top: -283px;
+}
+.explore{
+    padding-bottom: 50px;
+    margin-top: -178px;
+    padding-left: 118px;
+}
+.copyright{
+    margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 684px;
+    padding-left: 45px;
+}
+.botm{
+  padding-left: 45px;
+  
+}
+.botm .dist{
+    margin-bottom: 1px;
+}
+
+.contact{
+
+    margin-bottom: -19px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #c5c5c5; ;
+
+    
+   
+}
+
+
+
+
+@media (max-width: 768px) {
+    header, .nav-menu, .hero, .key-problems, .key-metrics, .reviews, .problem-target, .cta, footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero .girl-img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .problem-list {
+        flex-direction: column;
+    }
+
+    .tabs {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .key-problems h2,
+    .key-metrics h2,
+    .problem-target h2 {
+        font-size: 24px;
+    }
+
+    .reviews .container {
+        padding: 20px;
+    }
+
+    .cta .container {
+        padding: 20px;
+    }
+
+    .footer-column h3 {
+        font-size: 1em;
+    }
+
+    .footer-column ul {
+        font-size: 0.8em;
+    }
+}

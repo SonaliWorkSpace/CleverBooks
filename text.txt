@@ -1,0 +1,595 @@
+ viewBox="0 0 256 256" width="256" height="256" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_2"><rect width="256" height="256" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g transform="matrix(1,0,0,1,115.61200714111328,209.5500030517578)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,58.95000076293945,10.949999809265137)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M48,10.699999809265137 C48,10.699999809265137 -48,10.699999809265137 -48,10.699999809265137 C-53.909000396728516,10.699999809265137 -58.70000076293945,5.908999919891357 -58.70000076293945,0 C-58.70000076293945,-5.909999847412109 -53.909000396728516,-10.699999809265137 -48,-10.699999809265137 C-48,-10.699999809265137 48,-10.699999809265137 48,-10.699999809265137 C53.909000396728516,-10.699999809265137 58.70000076293945,-5.909999847412109 58.70000076293945,0 C58.70000076293945,5.908999919891357 53.909000396728516,10.699999809265137 48,10.699999809265137z"></path></g></g><g transform="matrix(1,0,0,1,21.050003051757812,117.05000305175781)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,106.94999694824219,10.949999809265137)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M96,10.699999809265137 C96,10.699999809265137 -96,10.699999809265137 -96,10.699999809265137 C-101.90899658203125,10.699999809265137 -106.69999694824219,5.908999919891357 -106.69999694824219,0 C-106.69999694824219,-5.909999847412109 -101.90899658203125,-10.699999809265137 -96,-10.699999809265137 C-96,-10.699999809265137 96,-10.699999809265137 96,-10.699999809265137 C101.90899658203125,-10.699999809265137 106.69999694824219,-5.909999847412109 106.69999694824219,0 C106.69999694824219,5.908999919891357 101.90899658203125,10.699999809265137 96,10.699999809265137z"></path></g></g><g transform="matrix(1,0,0,1,21.050003051757812,21.050003051757812)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,58.95000076293945,10.949999809265137)"><path fill="rgb(0,0,0)" fill-opacity="1" d=" M48,10.699999809265137 C48,10.699999809265137 -48,10.699999809265137 -48,10.699999809265137 C-53.909000396728516,10.699999809265137 -58.70000076293945,5.908999919891357 -58.70000076293945,0 C-58.70000076293945,-5.909999847412109 -53.909000396728516,-10.699999809265137 -48,-10.699999809265137 C-48,-10.699999809265137 48,-10.699999809265137 48,-10.699999809265137 C53.909000396728516,-10.699999809265137 58.70000076293945,-5.909999847412109 58.70000076293945,0 C58.70000076293945,5.908999919891357 53.909000396728516,10.699999809265137 48,10.699999809265137z"></path></g></g></g>
+
+ <style>
+[minus-btn], [plus-btn]{
+    user-select: none;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FC907E;
+}
+.slick-dots li button:before{font-size:8px;}
+
+/* Animated Type */
+.text-style-gradient {
+  display: inline-block;
+  background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+  background-size: 200% !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: Gradient 10s ease infinite !important;
+  -moz-animation: Gradient 10s ease infinite !important;
+  animation: Gradient 10s ease infinite !important;
+}
+
+/* Animation Keyframes */
+@-webkit-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes Gradient { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.gradient-bg-anim {
+    background: linear-gradient(114deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.slick-dots li{
+margin: 0 1px !important;
+}
+.b-white:after {
+  background: white;
+}
+.b-dark:after {
+  background: #151218;
+}
+
+/*GRADIENTS*/
+  .b-white, .b-white:before {
+    background: rgba(252,144,126,1);
+    background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+    background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1 );
+  }
+  .b-dark, .b-dark:before {
+    background: rgba(252,144,126,1);
+    background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+    background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1 );
+  }
+/*END GRADIENTS*/
+/*BASE BUTTON*/
+.btn-secondory {
+  display: inline-block;
+  position: relative;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.8s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-secondory:hover {
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+}
+.btn-secondory:hover:after {
+  left: 100%;
+  top: 100%;
+  bottom: 100%;
+  right: 100%;
+}
+.btn-secondory:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 30px;
+  transition: all .5s;
+}
+.btn-secondory.no-border-bg:before {
+  content: none;
+}
+.b-dark.no-border-bg:after {
+     background: transparent; 
+}
+.btn-secondory:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  z-index: -1;
+  border-radius: 30px;
+  transition: all .5s;
+}
+.text-btn-secondory {
+    padding: 12px 0px;
+    transition: all 0.8s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-btn-secondory:hover {
+    text-shadow: none;
+}
+.text-btn-secondory:hover .right-arrow-svg {
+    left: 5px;
+}
+.text-btn-secondory:before, .text-btn-secondory:before {
+    content: none;
+}
+
+
+/*blogs image zoom effect*/
+img.cs-list-image {
+    transition: scale .2s;
+    scale: 102%;
+}
+.cs-list-wrapper>.w-dyn-item:hover .cs-list-image {
+    scale: 110%;
+}
+@media (max-width: 280px) {
+  .get-crest-popUp{padding-top: 150px !important;}
+}
+</style>
+
+======code=====
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crest Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <img class="logo" src="/crest-app/crest.png" alt="logo"/>
+                <a href="#">CleverBooks</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="https://app.getcrest.ai/app/login" class="btn-secondary">Login</a></li>
+                <li><a href="https://meetings.hubspot.com/atlantikadas/crest-book-a-demo" class="btn-primary">Talk to Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Every order <br>fulfilled, <span class="highlight">on time.</span></h1>
+            <p>Eliminate overstocking and under-stocking with Crest. Built by supply-chain 
+                 experts, it brings the same technology used by large global brands to power 
+                  fast-growing startups. In short, we make supply meet demand, and then 
+                  help you grow both.</p>
+        </div>
+        <img class="girl-img" src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" loading="eager" alt="every order fulfilled" class="hero-dashboard-img">
+        <div class="start"> 
+            <button> Get started with Crest</button>
+            <img class="int" src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63d1777671aadb7b8492b5f9_hero-home-cta%20right%20to%20left.svg" alt="img">
+        </div>
+    </section>
+
+    <!-- Key Problems Solved Section -->
+    <section class="key-problems">
+        <div class="container">
+            <h2>Key Problems Solved by Crest</h2>
+            <p>Discover how Crest addresses common inventory management challenges:</p>
+            <ul>
+                <li>Overstocking and under-stocking</li>
+                <li>Inventory tracking and forecasting</li>
+                <li>Supply chain visibility</li>
+                <li>Cost reduction and efficiency improvement</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Key Metrics Section -->
+    <section class="key-metrics">
+        <div class="container">
+            <h2>Why Choose Crest?</h2>
+            <div class="metrics">
+                <div class="metric">
+                    <img src="dummy-icon1.png" alt="Icon 1">
+                    <p>Efficiency</p>
+                </div>
+                <div class="metric">
+                    <img src="dummy-icon2.png" alt="Icon 2">
+                    <p>Accuracy</p>
+                </div>
+                <div class="metric">
+                    <img src="dummy-icon3.png" alt="Icon 3">
+                    <p>Cost Savings</p>
+                </div>
+                <div class="metric">
+                    <img src="dummy-icon4.png" alt="Icon 4">
+                    <p>Scalability</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="review">
+                <p>"Crest has transformed our inventory management. We no longer worry about stock levels."</p>
+                <p>- Client Name</p>
+            </div>
+            <div class="review">
+                <p>"The efficiency and accuracy of Crest are unparalleled. Highly recommended!"</p>
+                <p>- Client Name</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Target Section -->
+    <section class="problem-target">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="tabs">
+                <div class="tab">
+                    <input type="radio" id="tab1" name="tab-group" checked>
+                    <label for="tab1">Feature 1</label>
+                    <div class="content">
+                        <p>Details about Feature 1.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab2" name="tab-group">
+                    <label for="tab2">Feature 2</label>
+                    <div class="content">
+                        <p>Details about Feature 2.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab3" name="tab-group">
+                    <label for="tab3">Feature 3</label>
+                    <div class="content">
+                        <p>Details about Feature 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Grow faster than you think</h2>
+            <p>Sign up for Crest today and revolutionize your inventory management.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>About Crest</p>
+            <p>Address: 123 Crest St, Innovation City, Country</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #fc907e;
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #fc907e;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btn-secondary {
+    background-color: #9f6eed;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .highlight {
+    color: #fc907e;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero .start button {
+    background-color: #fc907e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .start button:hover {
+    background-color: #9f6eed;
+}
+
+.hero .start img {
+    margin-left: 10px;
+}
+
+/* Key Problems Solved Section */
+.key-problems {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.key-problems h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.key-problems ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.key-problems ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Key Metrics Section */
+.key-metrics {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.key-metrics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.metric {
+    text-align: center;
+    margin: 20px;
+}
+
+.metric img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.metric p {
+    font-size: 1.2em;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.review p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Problem Target Section */
+.problem-target {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.problem-target h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tab input {
+    display: none;
+}
+
+.tab label {
+    display: block;
+    padding: 10px 20px;
+    background-color: #fc907e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab input:checked + label {
+    background-color: #9f6eed;
+}
+
+.tab .content {
+    display: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.tab input:checked + label + .content {
+    display: block;
+}
+
+/* CTA Section */
+.cta {
+    padding: 50px 0;
+    background-color: #9f6eed;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background-color: #fc907e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta button:hover {
+    background-color: #fff;
+    color: #fc907e;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
